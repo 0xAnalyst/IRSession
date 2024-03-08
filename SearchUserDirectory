@@ -1,0 +1,1 @@
+SELECT * FROM glob(globs='C:\\Users\\**\\*.exe')
