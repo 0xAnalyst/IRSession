@@ -1,1 +1,5 @@
+Parse NTFS to look for event logs
+SELECT FullPath FROM glob(
+globs="C:\Windows\System32\Winevt\Logs\*.evtx",
+accessor="ntfs")
 
