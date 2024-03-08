@@ -1,1 +1,1 @@
-SELECT * FROM glob(globs='C:\\Users\\**\\*.exe')
+SELECT FullPath, Hash(path=FullPath).SHA256 AS SHA256 FROM glob(globs='C:\\Users\\**\\*.exe')
