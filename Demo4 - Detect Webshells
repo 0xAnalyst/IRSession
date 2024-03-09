@@ -1,7 +1,9 @@
-
 rule CMD : webshell
 {
 	meta:
+	
+	    author		= "foo"
+	    
 	strings:
 		$a = "cmd.exe" wide ascii nocase fullword
 		$b = "xp_cmdshell" wide ascii nocase
@@ -9,7 +11,7 @@ rule CMD : webshell
 		$d = "system.diagnostics" wide ascii nocase fullword
 		$e = "system.net.networkinformation" wide ascii nocase fullword
 		$f = "Microsoft.Management" wide ascii fullword
-		$e = "system.data.sqlclient" wide ascii nocase fullword
+		$m = "system.data.sqlclient" wide ascii nocase fullword
 	condition:
 		any of them
 }
