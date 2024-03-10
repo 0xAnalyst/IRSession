@@ -1,6 +1,8 @@
 Windows.Applications.OfficeMacros
   Look for ineresting function and windows api calls  virtualprotect
   Windows.Search.FileFinder
+    Task - Label all Clients with specific label
+        label(client_id=ClientId, labels="victim", op="set")
 Windows.Registry.EnabledMacro
 
 Windows.Applications.Chrome.History
