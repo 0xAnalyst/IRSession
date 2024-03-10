@@ -1,6 +1,9 @@
+Windows.Applications.OfficeMacros
+  Windows.Search.FileFinder
+
+Look for ineresting function and windows api calls  
 Windows.Applications.Chrome.History
   SELECT * FROM source(artifact="Windows.Applications.Chrome.History")
   WHERE visit_count < 2
 Windows.Registry.EnabledMacro
-Windows.Applications.OfficeMacros 
-Look for ineresting function and windows api calls  
+
