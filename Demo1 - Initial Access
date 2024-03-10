@@ -1,7 +1,7 @@
 Windows.Applications.OfficeMacros
+  Look for ineresting function and windows api calls  virtualprotect
   Windows.Search.FileFinder
 
-Look for ineresting function and windows api calls  
 Windows.Applications.Chrome.History
   SELECT * FROM source(artifact="Windows.Applications.Chrome.History")
   WHERE visit_count < 2
