@@ -6,6 +6,7 @@ Windows.Applications.OfficeMacros
 Windows.Registry.EnabledMacro
 
 Windows.Applications.OfficeMacros.MacroRaptor
+Template Injection
 
 Windows.Applications.Chrome.History
   SELECT * FROM source(artifact="Windows.Applications.Chrome.History")
