@@ -5,6 +5,8 @@ Windows.Applications.OfficeMacros
         label(client_id=ClientId, labels="victim", op="set")
 Windows.Registry.EnabledMacro
 
+Windows.Applications.OfficeMacros.MacroRaptor
+
 Windows.Applications.Chrome.History
   SELECT * FROM source(artifact="Windows.Applications.Chrome.History")
   WHERE visit_count < 2
