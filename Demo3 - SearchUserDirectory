@@ -1,3 +1,3 @@
-SELECT FullPath, Hash(path=FullPath).SHA256 AS SHA256 FROM glob(globs='C:\\Users\\**\\*.exe')
+SELECT FullPath, hash(path=FullPath).SHA256 AS SHA256 FROM glob(globs='C:\\Users\\**\\*.exe') WHERE NOT IsDir
 Custom.Artifact.Parse.Users.Home.Folder.for.binaries
 
