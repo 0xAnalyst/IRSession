@@ -1,13 +1,15 @@
-Windows.Applications.OfficeMacros
+Macro Analysis
+  Windows.Applications.OfficeMacros
   Look for ineresting function and windows api calls  virtualprotect
   Windows.Search.FileFinder
     Task - Label all Clients with specific label
         label(client_id=ClientId, labels="victim", op="set")
-Windows.Registry.EnabledMacro
-
-Windows.Applications.OfficeMacros.MacroRaptor
+  Windows.Registry.EnabledMacro
+  Windows.Applications.OfficeMacros.MacroRaptor
 Template Injection
 
+
+Browser Analysis
 Windows.Applications.Chrome.History
   SELECT * FROM source(artifact="Windows.Applications.Chrome.History")
   WHERE visit_count < 2
