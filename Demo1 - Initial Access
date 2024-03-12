@@ -15,3 +15,5 @@ Windows.Applications.Chrome.History
   WHERE visit_count < 2
 
 ISO/IMG file mounting
+Windows.Detection.ISOMount
+
