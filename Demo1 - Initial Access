@@ -1,6 +1,8 @@
 Macro Analysis
   Windows.Applications.OfficeMacros
-  Look for ineresting function and windows api calls  virtualprotect
+  Look for ineresting function and windows api calls  virtualprotect, 
+      evil0.doc
+
 
   Windows.Search.FileFinder
     Task - Label all Clients with specific label
