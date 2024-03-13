@@ -1,0 +1,18 @@
+name: Custom.pipelist.Name
+description: |
+   Hunt for named pipe in the network and find CS namedpipe
+
+# Can be CLIENT, CLIENT_EVENT, SERVER, SERVER_EVENT
+type: CLIENT
+
+tools:
+   - name: Pipelist 
+     url: https://live.sysinternals.com/pipelist.exe 
+
+sources:
+  - precondition:
+      SELECT OS From info() where OS = 'windows'
+
+    query: |
+      LET Binary<= SELECT FullPath FROM Artifact.Generic.Utils.FetchBinary(ToolName="Pipelist")
+      SELECT * FROM execve(argv=[Binary[0].FullPath, "/accepteula"], sep="\r\n")
