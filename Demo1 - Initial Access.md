@@ -1,18 +1,17 @@
-* Macro Analysis
+# Macro Analysis
   Windows.Applications.OfficeMacros
   Look for ineresting function and windows api calls  virtualprotect, 
-* for files found in step 1
+# for files found in step 1
   Windows.Search.FileFinder
     Task - Label all Clients with specific label
         label(client_id=ClientId, labels="victim", op="set")
   Windows.Registry.EnabledMacro
   Windows.Applications.OfficeMacros.MacroRaptor
-* hunt for template  Injection
-* Browser Analysis
- ** Windows.Applications.Chrome.History
+# Hunt for template  Injection
+# Browser Analysis
+ ## Windows.Applications.Chrome.History 
       SELECT * FROM source(artifact="Windows.Applications.Chrome.History")
       WHERE visit_count < 2
-* Hunt for ISO/IMG file mounting
+# Hunt for ISO/IMG file mounting
     Windows.Detection.ISOMount - FlowID F.CNO4518FU87IG
-
-Powershell Analysis
+# Powershell Analysis
