@@ -1,4 +1,4 @@
-# WHD IRSession
+# IRSession
 
 Download Velociraptor binary from https://github.com/Velocidex/velociraptor/releases/
 
