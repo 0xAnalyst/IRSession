@@ -1,4 +1,5 @@
 # Process List Hunting
+
         Windows.System.Pslist
         
                     ``` SELECT Fqdn,Name, Exe,Hash.SHA256 AS SHA256,Authenticode.Trusted,Username, count() as Count FROM source(artifact="Windows.System.Pslist") GROUP BY Exe ORDER BY Count```
