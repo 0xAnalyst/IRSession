@@ -1,6 +1,6 @@
 # Macro Analysis
   Windows.Applications.OfficeMacros
-  Look for ineresting function and windows api calls  virtualprotect, 
+  Look for ineresting function and windows api calls such as virtualprotect..etc
 # for files found in step 1
   Windows.Search.FileFinder
     Task - Label all Clients with specific label
