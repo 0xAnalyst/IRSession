@@ -1,5 +1,5 @@
 # Webshell Analysis
-Use the following yara with the artifact Windows.Search.FileFinder filtering for asp and aspx files
+Use the following yara with the artifact Windows.Search.FileFinder filtering for asp and aspx files. also this artifact can be used https://docs.velociraptor.app/artifact_references/pages/windows.detection.yara.ntfs/ 
 
 rule CMD : webshell
 {
