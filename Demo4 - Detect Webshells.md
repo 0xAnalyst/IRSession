@@ -1,4 +1,6 @@
-#Webshell Analysis
+# Webshell Analysis
+Use the following yara with the artifact Windows.Search.FileFinder filtering for asp and aspx files
+
 rule CMD : webshell
 {
 	meta:
@@ -16,3 +18,5 @@ rule CMD : webshell
 	condition:
 		any of them
 }
+
+Use artifcat Generic.Detection.WebShells
