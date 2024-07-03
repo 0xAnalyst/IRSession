@@ -1,4 +1,5 @@
 # Create a custom artifact with the following 
+make sure to change hollws_hunter binary to the latest version
 
 ```
 name: Custom.Windows.Detection.ProcessHollowing
